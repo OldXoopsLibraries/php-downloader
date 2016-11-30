@@ -1,0 +1,18 @@
+{  
+   "name":"impresscms/php-downloader",
+   "description":"Some classes from  php-downloade v1.0 by www.ipunkt.biz package that were used in Xoops but can't be found outside",
+   "type":"library",
+   "require-dev":{  
+      "phpunit/phpunit":"*"
+   },
+   "license":"GPL",
+   "require":{  
+      "php":">=5.0"
+   },
+   "autoload":{  
+      "classmap":[  
+         "./src/zipfile.php",
+	 "./src/tar.php"
+      ]
+   }
+}
