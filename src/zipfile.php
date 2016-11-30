@@ -28,7 +28,7 @@
  *
  * @copyright	(c)	2002 - www.ipunkt.biz (rok)
  */
-class zipfile icms_file_ZipFileHandler {
+class zipfile {
 	/**
 	 * Array to store compressed data
 	 *
