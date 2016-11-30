@@ -6,7 +6,7 @@ Some classes from php-downloader v1.0 by www.ipunkt.biz package that were used i
 
 ##Installation
 
-`composer require impresscms/properties`
+`composer require impresscms/php-downloader`
 
 ## Usage
 
