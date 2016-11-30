@@ -2,7 +2,7 @@
 
 # php-downloader
 
-Some classes from php-downloader v1.0 by www.ipunkt.biz package that were used in Xoops but can't be found anywhere outside (ImpressCMS also used these libraries in core)
+Some classes from **php-downloader** v1.0 by www.ipunkt.biz package that were used in [Xoops](http://xoops.org) but can't be found anywhere outside ([ImpressCMS](http://impresscms.org) also used these libraries in core)
 
 ##Installation
 
