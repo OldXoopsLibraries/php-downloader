@@ -45,7 +45,7 @@ class AllTest extends \PHPUnit_Framework_TestCase {
      * Test methods availability
      */
     public function testMethodsAvailability() {
-        foreach ([
+        foreach (array(
             'tar' => array(
                 'openTAR',
                 'appendTar',
@@ -65,7 +65,7 @@ class AllTest extends \PHPUnit_Framework_TestCase {
                 'addFile',
                 'file'
             )
-        ] as $class => $methods) {
+        ) as $class => $methods) {
             foreach ($methods as $method) {
                 $this->assertTrue(method_exists($class, $method), 'Static method ' . $method . ' doesn\'t exists for class ' . $class);
             }
