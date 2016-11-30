@@ -10,10 +10,10 @@ class AllTest extends \PHPUnit_Framework_TestCase {
      * Test if is available
      */
     public function testAvailability() {
-        foreach ([
+        foreach (array(
                 'tar' => null,
                 'zipfile' => null
-            ] as $class => $must_be_instance_of) {
+            ) as $class => $must_be_instance_of) {
                 $this->assertTrue(class_exists($class, true), $class . " class doesn't exist");
             if ($must_be_instance_of !== null) {
                 $instance = $this->getClassInstance($class);
@@ -46,7 +46,7 @@ class AllTest extends \PHPUnit_Framework_TestCase {
      */
     public function testMethodsAvailability() {
         foreach ([
-            'tar' => [
+            'tar' => array(
                 'openTAR',
                 'appendTar',
                 'getFile',
@@ -60,11 +60,11 @@ class AllTest extends \PHPUnit_Framework_TestCase {
                 'saveTar',
                 'toTar',
                 'toTarOutput'
-            ],
-            'zipfile' => [
+            ),
+            'zipfile' => array(
                 'addFile',
                 'file'
-            ]
+            )
         ] as $class => $methods) {
             foreach ($methods as $method) {
                 $this->assertTrue(method_exists($class, $method), 'Static method ' . $method . ' doesn\'t exists for class ' . $class);
@@ -76,12 +76,12 @@ class AllTest extends \PHPUnit_Framework_TestCase {
      * Tests variables availability and types
      */
     public function testVariables() {
-        foreach ([
-            'tar' => [
+        foreach (array(
+            'tar' => array(
                 'numFiles' => 'null', // int
                 'files' => 'null' // array
-            ]
-        ] as $class => $variables) {
+            )
+        ) as $class => $variables) {
             $instance = $this->getClassInstance($class);
             foreach ($variables as $variable => $type) {
                 $this->assertInternalType($type, $instance->$variable, '$' . $variable . ' is not of type ' . $type . ' in instance of ' . $class);
