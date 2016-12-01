@@ -22,7 +22,7 @@
  *
  * @copyright	(c)	2002 - www.ipunkt.biz (rok)
  */
-class zipfile {
+class Zipfile {
 	/**
 	 * Array to store compressed data
 	 *
