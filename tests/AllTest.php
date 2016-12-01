@@ -11,8 +11,8 @@ class AllTest extends \PHPUnit_Framework_TestCase {
      */
     public function testAvailability() {
         foreach (array(
-                'tar' => null,
-                'zipfile' => null
+                'Tar' => null,
+                'Zipfile' => null
             ) as $class => $must_be_instance_of) {
                 $this->assertTrue(class_exists($class, true), $class . " class doesn't exist");
             if ($must_be_instance_of !== null) {
@@ -46,7 +46,7 @@ class AllTest extends \PHPUnit_Framework_TestCase {
      */
     public function testMethodsAvailability() {
         foreach (array(
-            'tar' => array(
+            'Tar' => array(
                 'openTAR',
                 'appendTar',
                 'getFile',
@@ -61,7 +61,7 @@ class AllTest extends \PHPUnit_Framework_TestCase {
                 'toTar',
                 'toTarOutput'
             ),
-            'zipfile' => array(
+            'Zipfile' => array(
                 'addFile',
                 'file'
             )
@@ -77,7 +77,7 @@ class AllTest extends \PHPUnit_Framework_TestCase {
      */
     public function testVariables() {
         foreach (array(
-            'tar' => array(
+            'Tar' => array(
                 'numFiles' => 'null', // int
                 'files' => 'null' // array
             )
