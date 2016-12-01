@@ -84,7 +84,7 @@
  * @author	Josh Barger <joshb@npt.com>
  * @copyright	Copyright (C) 2002  Josh Barger
  */
-class tar {
+class Tar {
 	/**#@+
 	 * Unprocessed Archive Information
 	 */
