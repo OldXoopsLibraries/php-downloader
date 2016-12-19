@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/github/license/MekDrop/legacy-library-php-downloader.svg?maxAge=2592000)](License.txt) [![GitHub release](https://img.shields.io/github/release/MekDrop/legacy-library-php-downloader.svg?maxAge=2592000)](https://github.com/ImpressCMS/impresscms/releases) [![Build Status](https://travis-ci.org/MekDrop/legacy-library-php-downloader.svg?branch=master)](https://travis-ci.org/MekDrop/legacy-library-php-downloader)
+[![License](https://img.shields.io/github/license/OldXoopsLibraries/php-downloader.svg?maxAge=2592000)](License.txt) [![GitHub release](https://img.shields.io/github/release/OldXoopsLibraries/php-downloader.svg?maxAge=2592000)](https://github.com/OldXoopsLibraries/php-downloader/releases) [![Build Status](https://travis-ci.org/OldXoopsLibraries/php-downloader.svg?branch=master)](https://travis-ci.org/OldXoopsLibraries/php-downloader)
 
 # php-downloader
 
@@ -6,7 +6,7 @@ Some classes from **php-downloader** v1.0 by www.ipunkt.biz package that were us
 
 ##Installation
 
-`composer require impresscms/php-downloader`
+`composer require old-xoops-libraries/php-downloader`
 
 ## Usage
 
