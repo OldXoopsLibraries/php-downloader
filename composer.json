@@ -1,5 +1,5 @@
 {  
-   "name":"xoops/php-downloader",
+   "name":"old-xoops-libraries/php-downloader",
    "description":"Some classes from  php-downloade v1.0 by www.ipunkt.biz package that were used in Xoops but can't be found outside",
    "type":"library",
    "require-dev":{  
@@ -12,7 +12,7 @@
    "autoload":{  
       "classmap":[  
          "./src/zipfile.php",
-	 "./src/tar.php"
+         "./src/tar.php"
       ]
    }
 }
