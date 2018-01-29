@@ -4,7 +4,7 @@
 
 Some classes from **php-downloader** v1.0 by www.ipunkt.biz package that were used in [Xoops](http://xoops.org) but can't be found anywhere outside.
 
-##Installation
+## Installation
 
 `composer require old-xoops-libraries/php-downloader`
 
