@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/github/license/OldXoopsLibraries/php-downloader.svg?maxAge=2592000)](License.txt) [![GitHub release](https://img.shields.io/github/release/OldXoopsLibraries/php-downloader.svg?maxAge=2592000)](https://github.com/OldXoopsLibraries/php-downloader/releases) [![Build Status](https://travis-ci.org/OldXoopsLibraries/php-downloader.svg?branch=master)](https://travis-ci.org/OldXoopsLibraries/php-downloader)
+[![License](https://img.shields.io/github/license/OldXoopsLibraries/php-downloader.svg?maxAge=2592000)](License.txt) [![GitHub release](https://img.shields.io/github/release/OldXoopsLibraries/php-downloader.svg?maxAge=2592000)](https://github.com/OldXoopsLibraries/php-downloader/releases) 
 
 # php-downloader
 
